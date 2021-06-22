@@ -1,18 +1,19 @@
 {
-  "name": "@sushiswap/sdk",
+  "name": "@1coinswap/sushi1coin-sdk",
   "license": "MIT",
-  "version": "5.0.0-canary.16",
+  "version": "5.1.0",
   "description": "🛠 An SDK for building applications on top of Sushiswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/sushiswap/sushiswap-sdk",
+  "repository": "https://github.com/1coinswap/sushi1coin-sdk",
   "keywords": [
     "uniswap",
     "sushiswap",
-    "ethereum"
+    "ethereum",
+    "1coin"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {

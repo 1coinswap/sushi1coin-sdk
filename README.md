@@ -1,8 +1,14 @@
-# Sushiswap SDK
+# ~Sushiswap~ Sushi1COIN Swap SDK
 
 In-depth documentation on this SDK is available at [uniswap.org](https://uniswap.org/docs/v2/SDK/getting-started/).
 
-This modifies uniswap-sdk's UniswapV2Factory address. The new address for sushiswap is  `0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac`.
+# Purpose of this SDK / repository
+
+Wanting to keep as much the same as SushiSwap/Uniswap as possible, we found there was no way to do this and allow potential future upgrades, without implementing our own package. This way we can just expand on all that already exists, and make modifications as we see fit.
+
+If all goes well, we will be able to continue to use new revisions of the SushiSwap SDK without having to modify this package. Provided the original SDK does not change drastically (Non backwards compatible application breaking code).
+
+This can be very useful for anyone looking to launch a SushiSwap clone.
 
 ## Running tests
 
